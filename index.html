@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">FARFAN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Alan Martinez</h1>
+            <h2>inutil en la vida - jugador de Destiny 2</h2>
+            <div class="redes">
+                <a href="https://twitter.com/Bungie"><i class="fa-brands fa-twitter"></i></a>
+             <a href="https://www.instagram.com/kfc.es/"><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://discord.gg/destiny2lfg"><i class="fa-brands fa-discord"></i></a>
+             <a href="https://steamcommunity.com/profiles/76561199093041981"><i class="fa-brands fa-steam"></i></a>
+             <a href="https://open.spotify.com/playlist/1LOBUvAUvyNWkK4zSQvBiu"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Alan pero me llaman farfan.</span> soy un estudiante de smr de grado medio, me gusta jugar a videojuegos, la musica hardcore y tecno y se contar hasta patata
+                 me gustaria dedicarme al montaje de equipos para ganarme la vida jeje</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-08-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            630425933
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pogofruta@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+
+                            <button>
+                             mis stats <a href=https://destinytracker.com/destiny-2/profile/bungie/4611686018498929610/overview><i class="fa-solid fa-gamepad"></i></a>
+                            </button>
+                            
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle santa Susana 49, Madrid, España
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>inutil de segundo Grado</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                           <a href="https://store.steampowered.com/app/1085660/Destiny_2/"><i class="fa-solid fa-gamepad"></i></a>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://open.spotify.com/intl-es/track/6JrEuedx7i7S2ukaojo7ni?si=a6109522ee9243af"><i class="fa-solid fa-headphones"></i></a> 
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://visortmo.com/library/manga/9240/jojos-bizarre-adventure-part-4-diamond-is-unbreakable"><i class="fa-solid fa-book"></i></a>
+                            <span>MANGA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Gaming Skills</h3>
+                    <div class="skill">
+                        <span>Aim (mando)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Aim (teclado y traton)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>FPS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>RPG</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MMO</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>COMUNICACIÓN</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>TRABAJO EN EQUIPO</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CREATIVIDAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>DEDICACION</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GESTION DE PROYECTOS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educacion secundria obligatoria</h4>
+                        <span class="casa">colegio la Inmaculada</span>
+                        <span class="fecha">2007 - 2019</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educacion secundria obligatoria</h4>
+                        <span class="casa">Colegio el Valle Sanchinarro</span>
+                        <span class="fecha">2020 - 20022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Grado medio Sistemas Microinformaticos y redes</h4>
+                        <span class="casa">Fp Euroformac</span>
+                        <span class="fecha">2022 - Actualiad</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>gastronomia</h4>
+                        <span class="casa">Taco Bell</span>
+                        <span class="fecha">2022 - actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img width="560" height="372" src="img/p1.png" alt="">
+                    <nav>
+                        <a href="index2.html"><i class="far fa-envelope fa-2x"></i></a>
+                    </nav>
+                    <div class="overlay">
+                        <h3>Tremenda Vaca</h3>
+                        <p>comeido yerba</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img width="560" height="372" src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Silvano</h3>
+                        <p>la ardilla porrera</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img width="4460" height="392" src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>NO PUEDE SER TOWN</h3>
+                        <p>ESO ES FUNABLE</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img width="560" height="372" src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>DE HECHO</h3>
+                        <p>kobeni es el persoanje mas roto de CSM </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img width="569" height="382" src="img/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>dibujo gracioso</h3>
+                        <p>buena Waifu</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <iframe width="560" height="372" src="https://www.youtube.com/embed/WPAYHhVkmXA"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-steam"></i></a>
+            <a href="#"><i class="fa-solid fa-headset"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
